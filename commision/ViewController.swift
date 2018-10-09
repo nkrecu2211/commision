@@ -23,8 +23,15 @@ class ViewController: UIViewController {
     @IBAction func caculateOnTapped(_ sender: UIButton) {
     }
     
+    
+    
     func getInput() -> Double
     {
+        if let commisionPay = comisionPayTextField.text{
+            print("Has Data")
+        } else {
+            print("No Data")
+        }
         
         return 13.97
     }
